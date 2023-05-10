@@ -15,5 +15,9 @@ public class Ejecutor {
         fac.calcularValorFactura(); 
         
         System.out.printf("%s\n", fac);
+        
+        FacturaTelefonica fac2 = new FacturaTelefonica();
+        fac.calcularValorFactura();
+        System.out.printf("%s\n", fac2);
     }
 }
